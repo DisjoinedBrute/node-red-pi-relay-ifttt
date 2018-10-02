@@ -1,9 +1,9 @@
 # node-red-pi-relay-ifttt
-## Node red relay code for 4 channel relay (or GPIO pins) and iftttt
+## Node red relay code for 4 channel relay (or GPIO pins) and ifttt
 ### Uses dataplicity wormhole and ifttt web request
 ------------------------------------------------------------------------------------------------------------------------------------------
 ## Setup 
-Update to latest raspbian  ```sudo apt-get update && sudo apt-get upgrade``` and run node-js with ```sudo node-js```\
+Update to latest raspbian  ```sudo apt-get update && sudo apt-get upgrade``` and install from [here](https://nodered.org/docs/hardware/raspberrypi)\
 Setup dataplicity from [here](https://www.dataplicity.com/)\
 Once setup enable wormhole and copy the address.\
 Go to [IFTTT](https://ifttt.com)\
