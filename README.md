@@ -8,7 +8,7 @@ Setup dataplicity from [here](https://www.dataplicity.com/)\
 Once setup enable wormhole and copy the address.\
 Go to [IFTTT](https://ifttt.com)\
 Connect web request to your account and edit the url to 'your_dataplicity_server/incoming1 (incoming1 can be replaced with anything)\
-On node-js edit the incoming https request to ```/incoming1```
+On node-red run the code and edit the incoming https request to ```/incoming1```. You might have to install some nodes.This can be done by going to settings, palette and install nodes.\
 Change the gpio output to the pins connected\
 ### The node-js is connected to IFTTT service 
 -------------------------------------------------------------------------------------------------------------------------------------------
