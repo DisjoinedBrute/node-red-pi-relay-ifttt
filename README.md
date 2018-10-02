@@ -7,8 +7,9 @@ Update to latest raspbian  ```sudo apt-get update && sudo apt-get upgrade``` and
 Setup dataplicity from [here](https://www.dataplicity.com/)\
 Once setup enable wormhole and copy the address.\
 Go to [IFTTT](https://ifttt.com)\
+Import the node-js code to node-red. This can be done by using the import tab in menu. Select import via clipboard and paste the code,\
 Connect web request to your account and edit the url to 'your_dataplicity_server/incoming1 (incoming1 can be replaced with anything)\
-On node-red run the code and edit the incoming https request to ```/incoming1```. You might have to install some nodes.This can be done by going to settings, palette and install nodes.\
+On node-red run the code and edit the incoming https request to ```/incoming1```. You might have to install some nodes.This can be done by going to settings, palette and install nodes.For nodes like ui_default and ui_tab,node dashboard needs to be installed.The ui can be accessed via the Pi's IP address.
 Change the gpio output to the pins connected\
 ### The node-js is connected to IFTTT service 
 -------------------------------------------------------------------------------------------------------------------------------------------
