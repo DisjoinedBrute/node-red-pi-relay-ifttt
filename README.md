@@ -23,7 +23,7 @@ Verify your device and create an applet\
 In the 'IF this' part setup the command for the Assistant. In 'Then that' part use web request and set it ip up using the steps given above.
 
 # Testing
-Say the command set up on Google Assistant and it will trigger a web request to the dataplicity link.The pi is waiting for the webreqest
+Say the command set up on Google Assistant and it will trigger a web request to the dataplicity link.The pi is waiting for the webrequest
 at a specific sublink setup up. To use more triggers simply change the web request to /incoming2 etc.
 
 ------------------------------------------------------------------------------------------------------------------------------------------
