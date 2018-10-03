@@ -11,8 +11,9 @@ Connect web request to your account and edit the url to <your_dataplicity_server
 Run node-red by typing ```node-red```\
 Import the node-js code to node-red. This can be done by using the import tab in menu. Select import via clipboard and paste the code\
 ### Library can be imported directly now.
-Deploy the code. You might have to install some nodes.This can be done by going to settings, palette and install nodes.For nodes like ui_default and ui_tab,node dashboard needs to be installed.The ui can be accessed via the Pi's IP address.\Edit the incoming https request to ```/incoming1```(or whatever you used in IFTTT).\
-Change the gpio output to the pins connected
+Deploy the code.Change the gpio pins according to the wiring done Edit the incoming https request to ```/incoming1```(or whatever you used in IFTTT). 
+### For UI control:
+You will have to install the dashboard node for this functionality. More details are [here](https://github.com/node-red/node-red-dashboard).It can be accesed on the pi's ip/ui
 ### Node-red is now connected to IFTTT service 
 -------------------------------------------------------------------------------------------------------------------------------------------
 ## Usage example:
