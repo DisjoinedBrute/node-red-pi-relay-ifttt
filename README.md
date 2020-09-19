@@ -1,4 +1,4 @@
-# node-red-pi-relay-ifttt
+# Raspberry Pi iot project based on IFTTT and NODE
 ## Node red relay code for 4 channel relay (or GPIO pins) and ifttt
 ### Uses dataplicity wormhole and ifttt web request
 ------------------------------------------------------------------------------------------------------------------------------------------
